@@ -4,5 +4,7 @@ public class Main {
 
         Receiver receiver = new Receiver();
         receiver.receiveText(MyConstants.TEXT);
+
+        System.out.println("My key is: " + Keys.KEY);
     }
 }
